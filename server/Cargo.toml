@@ -6,3 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+voxelize = "0.3.0"
+specs = {version = "0.17.0", features = ["specs-derive", "serde"]}
+

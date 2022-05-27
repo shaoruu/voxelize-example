@@ -14,5 +14,10 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@voxelize/client": "^1.0.10",
+    "@voxelize/voxel-physics-engine": "^1.0.10",
+    "three": "^0.141.0"
   }
 }
