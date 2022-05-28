@@ -30,7 +30,7 @@ fn main() {
 
         let mut pipeline = world.pipeline_mut();
 
-        pipeline.add_stage(FlatlandStage::new(0, dirt, stone, stone));
+        pipeline.add_stage(FlatlandStage::new(10, dirt, stone, stone));
     }
 
     Voxelize::run(server);

@@ -9,4 +9,16 @@ module.exports = {
   },
   mode: 'development',
   plugins: [new CopyWebpackPlugin({ patterns: ['client/index.html'] })],
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+    ],
+  },
 };

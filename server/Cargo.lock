@@ -1450,9 +1450,9 @@ checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
 
 [[package]]
 name = "voxelize"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0658730251c5867509f63541a9e998a89a9915caffe04ad577c2e42ad458fc97"
+checksum = "4c91d0161333ce95c6fe54234523264a91fa0984628d71da1b1ac7ecb502b6c5"
 dependencies = [
  "chrono",
  "crossbeam-channel",

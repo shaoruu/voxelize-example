@@ -8,16 +8,17 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server",
-    "server": "cd server && cargo run"
+    "server": "cd server && cargo run --release"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
+    "file-loader": "^6.2.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
   },
   "dependencies": {
-    "@voxelize/client": "^1.0.10",
+    "@voxelize/client": "^1.0.14",
     "@voxelize/voxel-physics-engine": "^1.0.10",
     "three": "^0.141.0"
   }
