@@ -186,12 +186,12 @@
   dependencies:
     "@types/node" "*"
 
-"@voxelize/client@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@voxelize/client/-/client-1.0.14.tgz#f0b0bdbf18466875859050318466ad71d32da241"
-  integrity sha512-Aw06iAK8hqzjRo9o3SchaKw7KHAU31niOeEVTLJf3IzqgteSZOyvIgwdzrCWWID4MrCmGn5/QYpYGXWcWVlUFA==
+"@voxelize/client@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@voxelize/client/-/client-1.1.2.tgz#87c2f141eb434a19ffd7829d6eb2678aab8d9dfc"
+  integrity sha512-YpzyIMNhRMihJP9BGTnvD5P5RxZoevqbdNxB5JYp3bT6iAK3QWXAwMEsPIDPgQ1dsqOHSH8BoOyrhQvx8xjP3A==
   dependencies:
-    "@voxelize/voxel-physics-engine" "^1.0.10"
+    "@voxelize/voxel-physics-engine" "^1.0.11"
     deepmerge "^4.2.2"
     domurl "^2.3.4"
     events "^3.3.0"
@@ -208,10 +208,10 @@
     tweezer.js "^1.5.0"
     typedarray-pool "^1.2.0"
 
-"@voxelize/voxel-physics-engine@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@voxelize/voxel-physics-engine/-/voxel-physics-engine-1.0.10.tgz#88bdfeb5994547c9fd354ccb0d586590663c9005"
-  integrity sha512-3fbt+bePo552AV0XfP/DMXyRyK5v3wNpcwpEhcK4DSlxEVKg2w2MzGEi3BH0+GhH7VVzBATNifXe2iqm8BGhDw==
+"@voxelize/voxel-physics-engine@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@voxelize/voxel-physics-engine/-/voxel-physics-engine-1.0.11.tgz#f67b82215e58a4c5bd174fc1b3d8b0ffb4362953"
+  integrity sha512-vNjL51NiNTwJ0QdzQHW3RkLg075siCuT9sf9yLe09IoVs81GaDrLIjdn8gTTDGAi3Lh1X06O6ouqhyz0R64omg==
   dependencies:
     tsup "^5.12.7"
     typescript "^4.6.4"

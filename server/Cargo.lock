@@ -1450,9 +1450,9 @@ checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
 
 [[package]]
 name = "voxelize"
-version = "0.3.1"
+version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4c91d0161333ce95c6fe54234523264a91fa0984628d71da1b1ac7ecb502b6c5"
+checksum = "f4b7a206fe73625b7589b914266bd0a17bda9811462c6f38bac6d3df596f55f8"
 dependencies = [
  "chrono",
  "crossbeam-channel",
@@ -1461,6 +1461,8 @@ dependencies = [
  "fern",
  "game-loop",
  "hashbrown 0.12.1",
+ "http",
+ "httparse",
  "itertools",
  "libflate",
  "linked_hash_set",
